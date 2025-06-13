@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+header{
+    background-color:#fff ;
+    height: 150px;
+    position: sticky; top: 0;
+    z-index: 10
+    
+}
+
+h1,h2{
+    font-family: "Merriweather", serif;
+    font-size: 400 ;
+}
+
+.navbar{
+    padding: 20px 4vw ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    top: 0;
+}
+
+.navbar_link:hover {
+    color: #ffab79;
+    transition: all 200ms ;
+}
+
+.navbar_logo{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+
+.fox{
+    width: 200px ;
+}
+
+.logo_text{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.navbar_link{
+    padding: 5px 0;
+    margin-left: 20px;
+    color: #333;
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+}
+
+#greating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 4vw;
+}
+
+.greating_text{
+    margin-right: 30px;
+}
+
+.greating_text h1{
+    font-size: 48px;
+}
+
+.greating_text p{
+    margin: 30px 0;
+}
+.greating_imge{
+    max-width: 800px;
+}
+.cta_button {
+    padding: 20px 60px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #fe6810;
+    color: #fff;
+    transition: all 600ms;
+}
+.cta_button:hover{
+    background-color: #fff;
+    color: #fe6810;
+    border: 1px solid #fe6810;
+}
+
+.cta_button a{
+    color: #fff;
+    transition: all 600ms;
+}
+
+.cta_button:hover a{
+    color: #fe6810;
+}
+#offer{
+    padding: 55px 4vw ;
+}
+.section_title{
+    font-size: 48px;
+    margin: 33px auto;
+    border-top: 4px solid #fe6810;
+    width: max-content;
+    padding: 20px;
+}
+.offer_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ofer_card{
+    width: 320px;
+    background-color:#fff ;
+    border: 1px solid #fe6810;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ofer_card img{
+    margin-bottom: 48px;
+}
+
+.ofer_card h3{
+    font-size: 24px ;
+    margin-bottom: 20px;
+}
+
+.ofer_card p{
+    text-align: center;
+}
+
+.ofer_card:hover h3{
+    color: #ffab79;
+    transition: all 600ms ;
+
+}
+
+.offer_cards img{
+    max-width: 300px;
+}
+
+.footer_text{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: #fe6810;
+    height: 100px
+}
+
+/*aboutme*/
+
+.div_in_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme_h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 33px auto;
+    border-top: 4px solid #fe6810;
+    width: max-content;
+    padding: 20px;
+}
+
+.aboutme_div{
+    max-width: 500px;
+}
+.imge_aboutme{
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 55px ;
+}
+.aboutme_div p{
+    font-family: "Oswald", serif;
+    font-size: 20px;
+    font-weight: bold;;
+}
+
+
